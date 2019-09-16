@@ -1,0 +1,76 @@
+.city {
+    margin-top: 200px;
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    border:  1px solid #FCDD76;
+    border-radius: 20px;
+    width: 40%;
+    height: 250px;
+    background: url('../../img/background.jpg');
+    background-size: cover;
+}
+
+.iconWeather {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.cityName {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.cityName img {
+    margin-left: 10px;
+}
+.name {
+    font-size: 40px;
+    font-weight: bold;
+}
+.temp{
+    font-size: 62px;
+    color: #EC2D01
+}
+.clouds {
+    font-size: 30px;
+    color: #EC2D01;
+}
+
+.otherInfo {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    font-size: 18px;
+    max-width: 100%;
+    width: 80%;
+    border: 3px solid #EC2D01;
+    text-align: center;
+    background: #FCDD76;
+    border-radius: 20px;
+}
+
+.field {
+ width: 100%;
+    display: flex;
+    margin-left: 10px;
+    padding: 1px 0;
+}
+.field div {
+    width: 100%
+}
+.field div:nth-child(2n) {
+    color: #EC2D01;
+}
